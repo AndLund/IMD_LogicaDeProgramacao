@@ -1,0 +1,28 @@
+x = leia_inteiro
+var flag := 0
+
+escolha flag
+	caso 1 => flag := 3
+	caso 2 => flag := 1
+	caso 3 => flag := 3
+	caso 4 => flag := 2
+	caso 5 => flag := 3
+	caso 6 => flag := 2
+	caso 7 => flag := 3
+	caso 8 => flag := 3
+	caso 9 => flag := 2
+	caso 10 => flag := 3
+	caso 11 => flag := 2
+	caso 12 => flag := 3
+	caso_  => flag := 0
+fim
+
+se flag == 3 então
+	imprima "Mês com 31 dias"
+senãose flag == 2 então
+  	imprima "Mês com 30 dias"
+senãose flag == 1 então
+  	imprima "Mês com 28 dias"
+senão
+	imprima "Mês inválido"
+fim

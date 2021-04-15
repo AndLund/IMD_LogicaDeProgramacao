@@ -1,0 +1,16 @@
+var z := leia_inteiro
+var w := leia_inteiro
+var i := 1
+
+enquanto i <= z faça
+  var j := 1
+  enquanto j <= w faça
+  	se j <> w então
+    		imprima "* "
+    	senão
+      	escreva "*"
+  	fim
+  	j := j + 1  
+  fim
+  i := i + 1
+fim

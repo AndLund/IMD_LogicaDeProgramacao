@@ -1,0 +1,8 @@
+var num := vetor[10]
+ 
+para i de 0 até num.tamanho-1 faça
+  num[i] := leia_inteiro
+fim
+para i de num.tamanho-1 até 0 passo -1 faça
+    escreva num[i]
+fim

@@ -1,0 +1,21 @@
+var flag1 := verdadeiro
+var x,y := -1.0
+
+enquanto flag1 faça
+  x := leia_numero
+  se x >= 0.0 e x <= 10.0 então
+    flag1 := falso
+  senão
+    escreva "Nota com valor inválido!"
+  fim
+fim
+flag1 := verdadeiro
+enquanto flag1 faça
+  y := leia_numero
+  se y >= 0.0 e y <= 10.0 então
+    flag1 := falso
+  senão
+    escreva "Nota com valor inválido!"
+  fim
+fim
+escreva "{(x+y)/2}"

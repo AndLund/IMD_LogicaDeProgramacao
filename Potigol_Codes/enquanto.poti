@@ -1,0 +1,12 @@
+var senha := ""
+var bool := verdadeiro
+enquanto bool faça
+	senha := leia_texto
+    	se senha == "acertadamente" então
+    		escreva "Acesso concedido"
+    		bool := falso
+    	senãose senha == "sair" então
+    		escreva "Programa encerrado"
+    		bool := falso
+    	fim
+fim

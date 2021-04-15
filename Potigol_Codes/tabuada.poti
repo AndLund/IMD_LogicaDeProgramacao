@@ -1,0 +1,19 @@
+var x := leia_inteiro
+var y := leia_inteiro
+var i,j := 1
+
+enquanto i <= x faça
+  enquanto j <= y faça
+  	se i == x e j == y então	
+  		imprima "{i}.{j}\n"
+    	senão	
+    		imprima "{i}.{j} "
+  	fim
+  	se j == y e i <> x então
+    		imprima "\n"
+  	fim
+  	j := j + 1
+  fim
+  j := 1
+  i := i + 1
+fim

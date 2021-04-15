@@ -1,0 +1,8 @@
+x = leia_inteiro
+
+escolha x
+	caso 1 |ou| 3 |ou| 5 |ou| 7 |ou| 8 |ou| 10 |ou| 12  => imprima "Mês com 31 dias"
+    caso 4 |ou| 6 |ou| 9 |ou| 11  => imprima "Mês com 30 dias"
+    caso 2 => imprima "Mês com 28 dias"
+    caso_  => imprima "Mês inválido"
+fim

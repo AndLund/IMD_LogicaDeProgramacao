@@ -1,0 +1,14 @@
+var x, y := -1
+var flag := verdadeiro
+
+enquanto flag faça
+	x := leia_inteiro
+	y := leia_inteiro
+	se x == y então
+  		flag := falso
+  	senãose x > y então
+    		escreva "decrescente"
+    	senão
+      	escreva "crescente"
+	fim
+fim

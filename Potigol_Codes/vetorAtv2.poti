@@ -1,0 +1,10 @@
+var num := vetor[100]
+ 
+para i de 0 até num.tamanho-1 faça
+  num[i] := leia_numero
+fim
+para i de 0 até 99 faça
+  se num[i] <= 10 então
+    escreva "V[{i}] = {num[i]}"
+  fim
+fim

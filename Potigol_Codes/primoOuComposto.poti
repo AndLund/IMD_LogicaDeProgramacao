@@ -1,0 +1,20 @@
+var z := leia_inteiro
+var cont := 0
+para i de 2 até z faça
+	para j de 1 até i faça
+  		se i mod j == 0 então
+    			cont := cont + 1
+  		fim
+	fim
+	se cont == 2 então
+  		escreva "{i} primo"
+	senão
+  		escreva "{i} composto"
+		para j de 2 até i-1 faça
+  			se i mod j == 0 então
+    				escreva j
+  			fim
+		fim
+	fim
+	cont := 0
+fim

@@ -1,0 +1,7 @@
+var x := leia_inteiro
+var aux := ""
+
+para i de 1 até x faça
+  aux := aux + "a" 
+fim
+imprima "Feliz Nat{aux}l!"

@@ -1,0 +1,11 @@
+var z := leia_inteiro
+
+para i de 1 até z faça
+	para j de 1 até z faça
+  		se j <> z então
+    			imprima "* "
+    		senão
+      		escreva "*"
+  		fim
+	fim
+fim

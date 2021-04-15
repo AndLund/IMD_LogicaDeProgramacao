@@ -1,0 +1,20 @@
+x = leia_inteiro
+var soma := 0
+var cont := 0
+var i := 1
+var j := 1
+enquanto i <= x faça
+	enquanto j <= i faça
+		se i mod j == 0 então
+  			cont := cont + 1
+		fim
+  		se cont == 2 e j == i então
+  			soma := soma + j
+		fim
+		j := j + 1	
+	fim
+	cont := 0
+	j := 1
+	i := i + 1
+fim
+imprima "{soma}"

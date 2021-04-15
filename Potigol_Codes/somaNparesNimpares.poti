@@ -1,0 +1,15 @@
+var x := leia_inteiro
+var y := leia_inteiro
+var cont := 0
+var soma := 0
+enquanto cont < x faça 
+  	se x mod 2 == 0 e y mod 2 == 0 então
+    		soma := soma + y
+    		cont := cont + 1
+  	senãose x mod 2 <> 0 e y mod 2 <> 0 então
+    		soma := soma + y
+    		cont := cont + 1
+  	fim
+  	y := y + 1
+fim
+escreva soma

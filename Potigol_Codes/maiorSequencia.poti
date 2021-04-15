@@ -1,0 +1,28 @@
+var cont := 0
+var aux := -1
+var first := 0
+var x := -1
+var maiorSeq := 0
+var firstAux := 0
+var contAux := 0
+var flag := verdadeiro
+enquanto x <> 0 faça
+	x := leia_inteiro
+    	se cont == 0 ou x == aux + 1  então
+      	aux := x
+      	se cont == 0 então
+        		first := x
+      	fim
+      	cont := cont + 1
+      senão
+        	se cont > contAux ou flag então
+          		contAux := cont
+          		firstAux := first
+          		flag := falso
+        	fim
+        	cont := 0
+    	fim
+fim
+
+escreva "Termo inicial: {firstAux}"
+escreva "Maior sequência: {contAux}"

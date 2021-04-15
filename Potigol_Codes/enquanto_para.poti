@@ -1,0 +1,10 @@
+var num := leia_inteiro
+var soma := 0
+var i := 0
+enquanto i <= num faça
+	se i mod 2 == 0 então
+		soma := soma + i
+	fim
+	i := i + 1
+fim
+imprima "{soma}"

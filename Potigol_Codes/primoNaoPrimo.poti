@@ -1,0 +1,13 @@
+var x := leia_inteiro
+var cont := 0
+para i de 1 até x faça
+  se x mod i == 0 então
+    cont := cont + 1
+  fim
+fim
+
+se cont == 2 então
+  imprima "número é primo"
+senão
+  imprima "número não é primo"
+fim

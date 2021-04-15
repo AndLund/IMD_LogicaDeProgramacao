@@ -1,0 +1,18 @@
+var x := leia_inteiro
+var a1 := 0
+var a2 := 1
+var soma := -1
+se x < 46 então
+	para i de 1 até x faça
+  		se i == 1 então
+    			soma := a1
+  		senãose i == 2 então
+    			soma := a2
+  		senãose i >= 3 então
+    			soma := a1 + a2
+    			a1 := a2
+    			a2 := soma
+  		fim
+   		 	escreva soma
+	fim
+fim

@@ -1,0 +1,14 @@
+var flag1,flag2 := verdadeiro
+var aux := 0
+
+enquanto flag1 faça
+  var x := leia_inteiro
+  se x > aux ou flag2 então
+    aux := x
+    flag2 := falso
+  fim
+  se x == 0 então
+    flag1 := falso
+  fim
+fim
+imprima aux

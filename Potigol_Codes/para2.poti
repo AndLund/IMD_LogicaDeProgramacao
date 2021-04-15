@@ -1,0 +1,15 @@
+x = leia_inteiro
+var soma := 0
+var cont := 0
+para i de 1 até x faça
+	para j de 1 até i faça
+		se i mod j == 0 então
+  			cont := cont + 1
+		fim
+  		se cont == 2 e j == i então
+  			soma := soma + j
+		fim	
+	fim
+	cont := 0
+fim
+imprima "{soma}"

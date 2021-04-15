@@ -1,0 +1,7 @@
+var soma := 0
+
+enquanto soma <= 100 faça
+	var a := leia_inteiro
+	soma := soma + a
+fim
+imprima soma

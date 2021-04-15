@@ -1,0 +1,18 @@
+var num := vetor[100]
+var menor := 0
+var aux := 0
+para i de 0 até num.tamanho-1 faça
+  num[i] := leia_inteiro
+  se i == 0 |ou| num[i] < aux então
+  	aux := num[i]
+  	menor := i
+  fim
+fim
+escreva "Menor valor recebido: {aux}"
+escreva "Índice do menor valor: {menor}"
+se menor <> 0 então
+	escreva "Valor armazenado na posição anterior [{menor-1}]: {num[menor-1]}"
+fim
+se menor <> 99 então
+	escreva "Valor armazenado na posição posterior [{menor+1}]: {num[menor+1]}"
+fim

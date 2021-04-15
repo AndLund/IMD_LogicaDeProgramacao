@@ -1,0 +1,11 @@
+var z := leia_inteiro
+
+para i de z até 1 passo -1 faça
+  	para j de i até 1 passo -1 faça
+  		se j == i então
+    			imprima "* "
+    		senão
+      		escreva "*"
+  		fim
+	fim
+fim

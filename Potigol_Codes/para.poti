@@ -1,0 +1,8 @@
+x = leia_inteiro
+var soma := 0
+para i de 1 até x faça
+	se i mod 2 == 1 então
+  		soma := soma + i
+	fim
+fim
+imprima "{soma}"
